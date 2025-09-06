@@ -1,8 +1,8 @@
 ﻿namespace AbstractFactory;
 
-class Program
+public class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
         Computer computer = new Computer(new StandardComputerPartsFactory());
 
