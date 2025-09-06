@@ -10,8 +10,8 @@ public class Program
             .SetAddress("USA")
             .SetCountry("WH")
             .SetCity("NVD")
-            .SetIsEmployeed(true)
-            .SetIsHomeOwner(false)
+            .SetIsEmployeed(false)
+            .SetIsHomeOwner(true)
             .Build();
 
         Console.WriteLine($"{person.FirstName} | {person.LastName} | {person.Address} | {person.Country} | {person.City} | {person.IsEmployeed} | {person.IsHomeOwner}");
